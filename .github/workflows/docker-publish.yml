@@ -30,8 +30,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./data_image/Dockerfile
+          context: ./data_image
           push: true
           # Tags the image with 'latest' and the specific git commit hash
           tags: |
