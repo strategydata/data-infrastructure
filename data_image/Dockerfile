@@ -1,4 +1,4 @@
-FROM python:3.11.13
+FROM python:3.13.1
 
 # Install system dependencies, development tools
 # Combines all installations in a single layer and includes cleanup to minimize image size
