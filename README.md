@@ -1,4 +1,4 @@
-# Data Infrastructure
+# data infrastructure
 
 this repo is for different image for our project infrastructure
 
